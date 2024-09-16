@@ -4,9 +4,11 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.example.sizeEnum.Size;
 
 public abstract class Cloth {
-    Size size;
-    Double price;
-    String color;
+    private Size size;
+
+    private Double price;
+
+    private String color;
 
     public Cloth(Size size, Double price, String color) {
         this.size = size;
