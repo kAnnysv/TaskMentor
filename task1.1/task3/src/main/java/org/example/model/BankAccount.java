@@ -7,10 +7,10 @@ import lombok.Data;
 @AllArgsConstructor
 public class BankAccount {
 
-    Long id;
-    String name;
-    Double amount;
-    Boolean isActive;
+    private Long id;
+    private String name;
+    private Double amount;
+    private Boolean isActive;
 
 
 }
